@@ -1,0 +1,87 @@
+body{
+  margin: auto;
+  padding: auto;
+}
+.header-box{
+  background-image: url(./CSS\ Advanced/object.png);
+  background-size:cover;
+}
+header{
+  display: flex;
+}
+header img {
+  display: flex;
+  padding: 20px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  margin-left: 700px;
+}
+nav{
+  display: flex;
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.schooled{
+  text-align: center;
+}
+span{
+  display:inline-flex;
+  justify-content: center;
+  color: white;
+  width: 100px;
+}
+.red-tshirt-guy{
+background-color: rgb(155, 207, 209);
+}
+.pros{
+  display: flex;
+  justify-content:space-around;
+  padding: 30px;
+  margin-left: 30px;
+}
+.pros p {
+  color:antiquewhite;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+  color: gold
+}
+h2{
+  color:rgb(80, 4, 152);
+  text-align: center;
+  font-size: 40px;
+}
+h3{
+  color: rgb(217, 126, 8);
+  text-align: center;
+}
+button{
+  background-color: goldenrod;
+  color: white;
+  margin-left: 650px;
+  padding: 10px;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px;
+}
+.free-membership{
+  background-color: rgb(3, 3, 58);
+  color: white;
+}
+.faq{
+  text-align: center;
+}
+footer{
+  background-color: rgb(3, 3, 58);
+  color: white;
+  text-align: center;
+}
