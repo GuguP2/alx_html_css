@@ -1,6 +1,7 @@
 body{
   margin: auto;
   padding: auto;
+  box-sizing: border-box;
 }
 .header-box{
   background-image: url(./CSS\ Advanced/object.png);
@@ -36,9 +37,6 @@ span{
   color: white;
   width: 100px;
 }
-.red-tshirt-guy{
-background-color: rgb(155, 207, 209);
-}
 .pros{
   display: flex;
   justify-content:space-around;
@@ -48,15 +46,45 @@ background-color: rgb(155, 207, 209);
 .pros p {
   color:antiquewhite;
 }
+.pros img{
+  margin-left: 40px;
+}
+
+.bruce{
+  border-radius:70px;
+  margin-left: 60px;
+}
+.red-tshirt-guy{
+background-color: rgb(17, 41, 58);
+color: white;
+display: flex;
+}
+.red-tshirt-guy img {
+  padding: 10px;
+margin-left: 100px;
+}
+.red-tshirt-guy h3 {
+  float: left;
+}
+.red-tshirt-guy p{
+  float: left;
+  padding: 30px;
+  margin-left: -70px;
+}
+blockquote{
+  margin-top: 40px;
+}
 h1{
   text-align: center;
-  font-size: 70px;
-  color: gold
+  font-size: 100px;
+  color: gold;
+  text-shadow: 2px 5px gray;
 }
 h2{
-  color:rgb(80, 4, 152);
+  color:rgb(190, 135, 241);
   text-align: center;
   font-size: 40px;
+  text-shadow: 2px 3px 5px grey;
 }
 h3{
   color: rgb(217, 126, 8);
@@ -73,15 +101,55 @@ button{
   border-radius: 30px;
   box-shadow: 5px 5px 5px;
 }
-.free-membership{
-  background-color: rgb(3, 3, 58);
+
+/* Tutorials Section */
+.tutorials {
+  background-color: white;
+}
+
+.tutorials h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.tutorials > div {
+  display: inline-grid;
+  
+}
+.star {
+  display: flex;
+  gap: 4px;
+  color: #242ffb;
+  margin: 10px 0;
+}
+
+.free{
+  background-color:rgb(37, 52, 65);
+  padding: 30px;
+}
+.smiley{
+  display: flex;
   color: white;
+  padding: 20px;
+}
+.smiley p{
+  padding: 20px;
+}
+.smiley h3{
+  margin-left: -80px;
+}
+
+.smiley img{
+  margin-left: 90px;
 }
 .faq{
-  text-align: center;
+  margin: 80px;
 }
 footer{
   background-color: rgb(3, 3, 58);
   color: white;
   text-align: center;
+  padding: 20px;
 }
+
