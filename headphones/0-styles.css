@@ -1,0 +1,9 @@
+body{
+  margin: auto;
+  padding: auto;
+}
+header{
+  background-image: url("images/pentagone.png");
+  background-size: cover;
+  
+}
