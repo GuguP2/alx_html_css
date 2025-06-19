@@ -1,9 +1,46 @@
 body{
+  box-sizing: border-box;
   margin: auto;
   padding: auto;
 }
-header{
-  background-image: url("images/pentagone.png");
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+  box-shadow: 2px 2px 3px grey;
+  border: 1px solid black;
+  display: flex;
+  float: right;
+  padding: 15px;
+  margin: 15px;
+}
+nav img{
+  margin: 30px
+} 
+.header-div {
+  background-image: url(images/headphones_hero_1.jpg);
   background-size: cover;
-  
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header-sec{
+  margin-top: 150px;
+  padding: 0 auto;
+  height: 100vh;
+  text-align: center;
+}
+
+button{
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 25px;
+  background-color: rgb(181, 188, 199);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  animation: mybutton 5s infinite;
+}
+@keyframes mybutton{
+  from {background-color:rgb(49, 55, 83);}
+  to {background-color: rgb(181, 188, 199);}
 }

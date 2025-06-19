@@ -1,0 +1,22 @@
+body{
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 2px 3px grey;
+  border: 1px solid black;
+  display: flex;
+  float: right;
+  padding: 15px;
+  margin: 15px;
+}
+nav img{
+  margin: 30px;
+}
+.information{
+  text-align: center
+  ;
+}
