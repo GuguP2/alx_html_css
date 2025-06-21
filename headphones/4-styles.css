@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0;
   margin: auto;
   font-family: sans-serif;
@@ -6,57 +6,64 @@ body{
   line-height: 1.5;
   color: #555;
   background: #fff;
-  max-width: 1000px;
 }
+
 h1 {
   font-size: 1.5em;
   font-weight: normal;
 }
-.nav-links{
+
+.nav-links {
   display: flex;
   list-style: none;
-  float:right;
+  float: right;
   margin: 20px;
-  padding-top: 10px;;
+  padding-top: 10px;
+  ;
 }
-nav a{
+
+nav a {
   text-decoration: none;
   color: white;
   border: none;
   padding: 15px;
   margin: 15px;
 }
-nav a:hover{
+
+nav a:hover {
   box-shadow: 0 1px #e74c3c;
   color: #e74c3c;
 }
 
 .header-div {
   background-image: url(images/headphones_hero_1.jpg);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
-.header-sec{
-  margin:auto;
+.header-sec {
+  margin: auto;
   padding-top: 300px;
   padding-bottom: 50px;
   width: 1000px;
   text-align: center;
   color: white;
 }
-.header-sec h2{
-font-size: 15px;
-padding-bottom: 20px;
+
+.header-sec h2 {
+  font-size: 15px;
+  padding-bottom: 20px;
 }
-.header-sec p{
+
+.header-sec p {
   width: 700px;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-button{
+button {
   font-size: 18px;
   border: none;
   border-radius: 50px;
@@ -65,24 +72,28 @@ button{
   color: white;
   box-shadow: 5px 15px 30px black;
 }
-button:hover{
+
+button:hover {
   box-shadow: 0 1px #e74c3c;
 }
 
-.school-info{
+.school-info {
   text-align: center;
-  width: 800px;
-  margin:auto;
+  max-width: 1000px;
+  margin: auto;
   padding: 100px;
 }
 
-.icon{
+.icon {
   display: flex;
   gap: 30px;
   margin: auto;
   width: 1000px;
 }
-.icon h2, p, .school-icon{
+
+.icon h2,
+p,
+.school-icon {
   text-align: center;
 }
 
@@ -92,18 +103,21 @@ button:hover{
   margin-top: -80px;
   margin-left: -40px;
 }
+
 .holberton_school-icon-ic_video {
   color: red;
   font-size: 80px;
   margin-top: -80px;
   margin-left: -40px;
 }
+
 .holberton_school-icon-ic_music {
   color: red;
   font-size: 80px;
   margin-top: -80px;
   margin-left: -40px;
 }
+
 .holberton_school-icon-ic_hearing {
   color: red;
   font-size: 80px;
@@ -112,27 +126,33 @@ button:hover{
 }
 
 .information {
-   background-image: url(images/headphones_hero_2.jpg);
+  background-image: url(images/headphones_hero_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  margin:auto;
+  margin: auto;
   padding: 30px;
 }
-.results{
+
+.results {
   width: 600px;
   margin: auto;
 }
-.results p{
+
+.results p {
   font-size: 12px;
 }
-h4, span{
-  position:absolute;
+
+h4,
+span {
+  position: absolute;
 }
-p{
+
+p {
   font-size: 15px;
 }
+
 .pentagone {
   display: flex;
   gap: 50px;
@@ -143,7 +163,7 @@ p{
 
 .pentagone .item {
   position: relative;
-  width: 200px; /
+  width: 200px;
 }
 
 .pentagone .item img {
@@ -166,16 +186,17 @@ p{
 .pentagone .item p {
   display: block;
   font-size: 10px;
-  color:white;
+  color: white;
 }
 
-form{
+form {
   max-width: 500px;
   margin: auto;
   padding: 80px;
   border-radius: 8px;
 }
-form  h1{
+
+form h1 {
   color: #142a48;
   text-align: center;
   padding: 30px;
@@ -206,11 +227,12 @@ form button {
   border-radius: 40px;
   transition-duration: 0.9s;
   cursor: pointer;
+  width: 100%;
 }
 
 form button:hover {
- background-color: antiquewhite;
- color: rgb(32, 28, 56);
+  background-color: antiquewhite;
+  color: rgb(32, 28, 56);
 }
 
 footer {
@@ -247,37 +269,66 @@ footer i:hover {
   color: #e74c3c;
   transform: scale(1.2);
 }
-footer img{
+
+footer img {
   width: 150px;
   padding: 20px;
 }
+
 /* Bottom row: centered link */
-footer a{
+footer a {
   text-align: center;
   margin-top: 20px;
   text-decoration: none;
   color: #555;
   font-size: 10px;
 }
+
+/*mobile version*/
 @media (max-width: 480px) {
   .nav-links {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    flex-direction: column;
+    background-color: #e74c3c;
+    max-width: 100%;
+  }
+
+  .header-sec {
+    max-width: 100%;
+  }
+
+  .header-sec p {
+    max-width: 100%;
+  }
+
+  .header-div {
+    max-width: 100%;
+  }
+
+  .school-info h1 {
     width: 100%;
-    align-items: center;
-    display: none;
-    padding: 20px 0;
-    background-color: #211f35;
   }
 
-  .nav-links {
-    display: flex;
+  .icon {
+    width: 100%;
+    display: block;
   }
 
-  .hamburger {
-    display: flex;
+  .school-icon {
+    width: 100%;
   }
+
+  h2, p, .school-icon {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .information .results{
+    width:100%;
+  }
+  .pentagone .item {
+    width: 100%;
+  }
+
+form{
+  width: 100%;
 }
 
+}
