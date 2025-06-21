@@ -1,21 +1,35 @@
 body{
-  box-sizing: border-box;
-  margin: auto;
-  padding: auto;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  background: #fff;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  float:right;
+  margin: 20px;
+  padding-top: 10px;;
 }
 nav a{
   text-decoration: none;
-  color: aliceblue;
-  box-shadow: 2px 2px 3px grey;
-  border: 1px solid black;
-  display: flex;
-  float: right;
+  color: black;
+  border: none;
   padding: 15px;
   margin: 15px;
 }
-nav img{
-  margin: 30px
-} 
+nav a:hover{
+  box-shadow: 0 1px #e74c3c;
+  color: #e74c3c;
+}
+
 .header-div {
   background-image: url(images/headphones_hero_1.jpg);
   background-size: cover;
@@ -29,18 +43,21 @@ nav img{
   height: 100vh;
   text-align: center;
 }
+.header-sec p{
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
 
 button{
-  font-size: 30px;
-  border: 1px solid black;
-  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
   padding: 25px;
-  background-color: rgb(181, 188, 199);
+  background-color: #e74c3c;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
-  animation: mybutton 5s infinite;
+  box-shadow: 5px 15px 30px black;
 }
-@keyframes mybutton{
-  from {background-color:rgb(49, 55, 83);}
-  to {background-color: rgb(181, 188, 199);}
+button:hover{
+  box-shadow: 0 1px #e74c3c;
 }
